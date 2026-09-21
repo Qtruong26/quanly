@@ -1,0 +1,4 @@
+- **Prompt 1:** Trong cơ sở dữ liệu MySQL, mặc định từ khóa JOIN (khi không ghi rõ LEFT hay RIGHT) sẽ hoạt động như thế nào? Nó sẽ bỏ qua hay giữ lại các bản ghi không có sự trùng khớp ở cả hai bảng?
+- **Prompt 2:** Khi tôi sử dụng LEFT JOIN và đếm số lượng đơn hàng bằng hàm COUNT, tôi nên dùng COUNT(\*) hay COUNT(tên_cột_khóa_chính_bảng_order)? Sự khác biệt khi kết quả trả về NULL là gì?
+- **Prompt 3:** Hãy phân tích hiệu năng (Performance) của việc dùng LEFT JOIN kết hợp IS NULL so với việc dùng subquery NOT IN khi muốn tìm kiếm các bản ghi không tồn tại trong bảng khác.
+- **Prompt 4:** Có cú pháp SQL nào cho phép tôi kết hợp kết quả của một LEFT JOIN và một RIGHT JOIN để giả lập tính năng FULL OUTER JOIN trong MySQL không?
